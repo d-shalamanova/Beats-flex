@@ -1,0 +1,10 @@
+/*nav*/
+nav li{
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: gray;
+    text-decoration:none;
+    padding-right:2em;
+}

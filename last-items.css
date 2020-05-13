@@ -1,0 +1,28 @@
+/*Last*/
+.last{ 
+    background-color: #DADADA;
+    display: flex;
+}
+
+.media-last{
+    flex: 1 1 50%;
+} 
+.content-last {
+    flex: 1 1 25%;
+    padding-right:2em;
+    padding-left: 1em;
+}
+
+.media-last-right{
+    flex: 1 1 25%;
+    padding-left: 1em;
+}
+
+.media-last img{
+    width: 100%;
+    height: auto;   
+}
+.media-last-right img{
+    width: 80%;
+    height: auto;
+}

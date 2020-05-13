@@ -1,0 +1,55 @@
+/*Layout*/
+.wrapper{
+    background-color:#fff;
+    width: 50em;
+    margin: 0 auto;
+}
+
+nav, nav ul, footer{
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.inner{
+    display: flex;
+}
+
+.content{
+    margin: auto;
+    padding: 3em;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    padding: 1.5em 0;
+}
+
+.content, 
+.media{
+    flex: 1 1 50%;
+}
+
+.media-left{
+    float:left;
+}
+
+.content-right{
+    float: right;
+}
+
+.inner img{
+    width: 100%;
+    height: auto;   
+} 
+
+img.logo{
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    margin-right: 1em;
+}
